@@ -1,5 +1,6 @@
 os:
   - linux
+  - windows
 
 addons:
   apt:
@@ -26,10 +27,14 @@ before_install: |
     export CXX=g++-8
   fi
 
-script:
-    - sudo chmod +x build.sh
-    - ./build.sh
-    - ./FakeStringUnitTests
-
-
-  
+jobs:
+    include:
+        - stage: build
+        os: linux
+        script:
+            - sudo chmod +x build.sh
+            - ./build.sh
+        - stage: "Testing"
+        os: linux
+        script:
+            - ./FakeStringUnitTests
