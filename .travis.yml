@@ -29,12 +29,12 @@ before_install: |
 
 jobs:
     include:
-        - stage: build
+        -stage: build
         os: linux
         script:
             - sudo chmod +x build.sh
             - ./build.sh
-        - stage: "Testing"
+        -stage: "Testing"
         os: linux
         script:
             - ./FakeStringUnitTests
