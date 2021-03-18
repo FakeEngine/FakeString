@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FakeString.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\FakeTimer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\AppendToStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\AtStringIndexTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ContainsStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\CStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\EmptyStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\EndsWithStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\FirstIndexNotOfStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\FirstIndexOfStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\IndexOfStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\InvertStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\LastIndexOfStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\LengthStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\LowerCaseStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PrintStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\RemoveFromStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ReplaceStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ResizeStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\SplitStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\StartsWithStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\SubStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ToStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\UpperCaseStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\WStringTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\FakeConsole.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Unix\FakeUnixConsole.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\FakeWindowsConsole.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Test.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FakeString.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\FakeTimer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\FakeAssert.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Test.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\AppendToStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\AtStringIndexTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\ContainsStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\FakeConsole.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\FakeCore.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Unix\FakeUnixConsole.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\FakeWindowsConsole.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\CStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\EmptyStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\WStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\EndsWithStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\FirstIndexNotOfStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\FirstIndexOfStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\IndexOfStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\LastIndexOfStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\InvertStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\LengthStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\LowerCaseStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\UpperCaseStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\PrintStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\RemoveFromStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\StartsWithStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\ReplaceStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\ResizeStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\SplitStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\SubStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\ToStringTest.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
