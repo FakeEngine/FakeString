@@ -28,6 +28,7 @@ before_install: |
   fi
 
 script:
+    - sudo chmod +x build.sh
     - ./build.sh
     - ./FakeStringUnitTests
 
