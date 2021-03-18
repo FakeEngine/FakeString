@@ -1,6 +1,5 @@
 os:
   - linux
-  - osx
   - windows
 
 addons:
@@ -28,17 +27,9 @@ before_install: |
     export CXX=g++-8
   fi
 
-matrix:
-    include:
-        -name: "Build"
-        env:
-        - CC="/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/x86_64-w64-mingw32-gcc"
-        - CXX="/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/x86_64-w64-mingw32-g++"
-        script:
-        - ./build.sh
-  
-        -name: "Unit Tests"
-        script: 
-        - ./FakeStringUnitTests
-  
+script:
+    - ./build.sh
+    - ./FakeStringUnitTests
+
+
   
